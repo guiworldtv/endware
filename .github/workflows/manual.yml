@@ -40,8 +40,8 @@ jobs:
       - name: Main
         run: |
           pwd
-          chmod +x alogz.sh
-          ./alogz.sh
+          chmod +x check16.sh
+          ./check16.sh
         
       - name: git add
         run: |
