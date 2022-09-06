@@ -40,8 +40,8 @@ jobs:
       - name: Main
         run: |
           pwd
-          chmod +x check16.sh
-          ./check16.sh
+          chmod +x pdfmerge.sh
+          ./pdfmerge.sh
         
       - name: git add
         run: |
