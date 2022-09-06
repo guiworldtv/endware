@@ -40,8 +40,8 @@ jobs:
       - name: Main
         run: |
           pwd
-          chmod +x pdfmerge.sh
-          ./pdfmerge.sh
+          chmod +x proxyload.sh
+          ./proxyload.sh
         
       - name: git add
         run: |
