@@ -40,8 +40,8 @@ jobs:
       - name: Main
         run: |
           pwd
-          chmod +x proxyload.sh
-          ./proxyload.sh
+          chmod +x endwall.sh
+          ./endwall.sh
         
       - name: git add
         run: |
